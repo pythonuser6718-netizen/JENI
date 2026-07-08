@@ -80,3 +80,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MESSAGE_TAGS = {
     10: 'debug', 20: 'info', 25: 'success', 30: 'warning', 40: 'error',
 }
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://jeni-production.up.railway.app/',
+]
